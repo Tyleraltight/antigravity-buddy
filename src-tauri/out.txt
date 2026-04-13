@@ -1,0 +1,939 @@
+﻿cargo :    Compiling proc-
+macro2 v1.0.106
+所在位置 行:1 字符: 1
++ cargo build 2>&1 | Out-F
+ile -Encoding utf8 out.txt
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (   
+    Compiling proc-macr   
+ o2 v1.0.106:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+   Compiling quote v1.0.45
+   Compiling serde_core v1
+.0.228
+   Compiling zerocopy v0.8
+.48
+   Compiling icu_normalize
+r_data v2.2.0
+   Compiling icu_propertie
+s_data v2.2.0
+   Compiling parking_lot_c
+ore v0.9.12
+   Compiling serde v1.0.22
+8
+   Compiling zmij v1.0.21
+   Compiling bytes v1.11.1
+   Compiling getrandom v0.
+1.16
+error: linking with `rust-
+lld.exe` failed: exit code
+: 1
+  |
+  = note: "rust-lld.exe" "
+-flavor" "link" "/NOLOGO" 
+"E:\\ClaudeCode\\PROJECTS\
+\Antigravity_bot\\src-taur
+i\\target\\debug\\build\\i
+cu_normalizer_data-11d3961
+6deae7d34\\rustcnCDAeM\\sy
+mbols.o" "<2 object files 
+omitted>" "<sysroot>\\lib\
+\rustlib\\x86_64-pc-window
+s-msvc\\lib/{libstd-*,libp
+anic_unwind-*,libcfg_if-*,
+libwindows_targets-*,libru
+stc_demangle-*,libstd_dete
+ct-*,libhashbrown-*,librus
+tc_std_workspace_alloc-*,l
+ibunwind-*,librustc_std_wo
+rkspace_core-*,liballoc-*,
+libcore-*,libcompiler_buil
+tins-*}.rlib" "kernel32.li
+b" "kernel32.lib" "kernel3
+2.lib" "ntdll.lib" "useren
+v.lib" "ws2_32.lib" "dbghe
+lp.lib" "/defaultlib:msvcr
+t" "/NXCOMPAT" "/OUT:E:\\C
+laudeCode\\PROJECTS\\Antig
+ravity_bot\\src-tauri\\tar
+get\\debug\\build\\icu_nor
+malizer_data-11d39616deae7
+d34\\build_script_build-11
+d39616deae7d34.exe" "/OPT:
+REF,NOICF" "/DEBUG" "/PDBA
+LTPATH:%_PDB%" "/NATVIS:<s
+ysroot>\\lib\\rustlib\\etc
+\\intrinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\rustlib
+\\etc\\liballoc.natvis" "/
+NATVIS:<sysroot>\\lib\\rus
+tlib\\etc\\libcore.natvis"
+ "/NATVIS:<sysroot>\\lib\\
+rustlib\\etc\\libstd.natvi
+s"
+  = note: some arguments a
+re omitted. use `--verbose
+` to show all linker argum
+ents
+  = note: rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'ntdll.lib
+': no such file or directo
+ry
+          rust-lld: error:
+ could not open 'userenv.l
+ib': no such file or direc
+tory
+          rust-lld: error:
+ could not open 'ws2_32.li
+b': no such file or direct
+ory
+          rust-lld: error:
+ could not open 'dbghelp.l
+ib': no such file or direc
+tory
+          
+
+error: linking with `rust-
+lld.exe` failed: exit code
+: 1
+  |
+  = note: "rust-lld.exe" "
+-flavor" "link" "/NOLOGO" 
+"E:\\ClaudeCode\\PROJECTS\
+\Antigravity_bot\\src-taur
+i\\target\\debug\\build\\i
+cu_properties_data-92c0202
+4f095c764\\rustcZqduFT\\sy
+mbols.o" "<2 object files 
+omitted>" "<sysroot>\\lib\
+\rustlib\\x86_64-pc-window
+s-msvc\\lib/{libstd-*,libp
+anic_unwind-*,libcfg_if-*,
+libwindows_targets-*,libru
+stc_demangle-*,libstd_dete
+ct-*,libhashbrown-*,librus
+tc_std_workspace_alloc-*,l
+ibunwind-*,librustc_std_wo
+rkspace_core-*,liballoc-*,
+libcore-*,libcompiler_buil
+tins-*}.rlib" "kernel32.li
+b" "kernel32.lib" "kernel3
+2.lib" "ntdll.lib" "useren
+v.lib" "ws2_32.lib" "dbghe
+lp.lib" "/defaultlib:msvcr
+t" "/NXCOMPAT" "/OUT:E:\\C
+laudeCode\\PROJECTS\\Antig
+ravity_bot\\src-tauri\\tar
+get\\debug\\build\\icu_pro
+perties_data-92c02024f095c
+764\\build_script_build-92
+c02024f095c764.exe" "/OPT:
+REF,NOICF" "/DEBUG" "/PDBA
+LTPATH:%_PDB%" "/NATVIS:<s
+ysroot>\\lib\\rustlib\\etc
+\\intrinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\rustlib
+\\etc\\liballoc.natvis" "/
+NATVIS:<sysroot>\\lib\\rus
+tlib\\etc\\libcore.natvis"
+ "/NATVIS:<sysroot>\\lib\\
+rustlib\\etc\\libstd.natvi
+s"
+  = note: some arguments a
+re omitted. use `--verbose
+` to show all linker argum
+ents
+  = note: rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'ntdll.lib
+': no such file or directo
+ry
+          rust-lld: error:
+ could not open 'userenv.l
+ib': no such file or direc
+tory
+          rust-lld: error:
+ could not open 'ws2_32.li
+b': no such file or direct
+ory
+          rust-lld: error:
+ could not open 'dbghelp.l
+ib': no such file or direc
+tory
+          
+
+error: could not compile `
+icu_normalizer_data` (buil
+d script) due to 1 previou
+s error
+warning: build failed, wai
+ting for other jobs to fin
+ish...
+error: could not compile `
+icu_properties_data` (buil
+d script) due to 1 previou
+s error
+error: linking with `rust-
+lld.exe` failed: exit code
+: 1
+  |
+  = note: "rust-lld.exe" "
+-flavor" "link" "/NOLOGO" 
+"E:\\ClaudeCode\\PROJECTS\
+\Antigravity_bot\\src-taur
+i\\target\\debug\\build\\q
+uote-7f47f72891ace304\\rus
+tcRhBop5\\symbols.o" "<2 o
+bject files omitted>" "<sy
+sroot>\\lib\\rustlib\\x86_
+64-pc-windows-msvc\\lib/{l
+ibstd-*,libpanic_unwind-*,
+libcfg_if-*,libwindows_tar
+gets-*,librustc_demangle-*
+,libstd_detect-*,libhashbr
+own-*,librustc_std_workspa
+ce_alloc-*,libunwind-*,lib
+rustc_std_workspace_core-*
+,liballoc-*,libcore-*,libc
+ompiler_builtins-*}.rlib" 
+"kernel32.lib" "kernel32.l
+ib" "kernel32.lib" "ntdll.
+lib" "userenv.lib" "ws2_32
+.lib" "dbghelp.lib" "/defa
+ultlib:msvcrt" "/NXCOMPAT"
+ "/OUT:E:\\ClaudeCode\\PRO
+JECTS\\Antigravity_bot\\sr
+c-tauri\\target\\debug\\bu
+ild\\quote-7f47f72891ace30
+4\\build_script_build-7f47
+f72891ace304.exe" "/OPT:RE
+F,NOICF" "/DEBUG" "/PDBALT
+PATH:%_PDB%" "/NATVIS:<sys
+root>\\lib\\rustlib\\etc\\
+intrinsic.natvis" "/NATVIS
+:<sysroot>\\lib\\rustlib\\
+etc\\liballoc.natvis" "/NA
+TVIS:<sysroot>\\lib\\rustl
+ib\\etc\\libcore.natvis" "
+/NATVIS:<sysroot>\\lib\\ru
+stlib\\etc\\libstd.natvis"
+  = note: some arguments a
+re omitted. use `--verbose
+` to show all linker argum
+ents
+  = note: rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'ntdll.lib
+': no such file or directo
+ry
+          rust-lld: error:
+ could not open 'userenv.l
+ib': no such file or direc
+tory
+          rust-lld: error:
+ could not open 'ws2_32.li
+b': no such file or direct
+ory
+          rust-lld: error:
+ could not open 'dbghelp.l
+ib': no such file or direc
+tory
+          
+
+error: linking with `rust-
+lld.exe` failed: exit code
+: 1
+  |
+  = note: "rust-lld.exe" "
+-flavor" "link" "/NOLOGO" 
+"E:\\ClaudeCode\\PROJECTS\
+\Antigravity_bot\\src-taur
+i\\target\\debug\\build\\p
+arking_lot_core-dd14c1e1ce
+d32ba1\\rustctoSIzn\\symbo
+ls.o" "<2 object files omi
+tted>" "<sysroot>\\lib\\ru
+stlib\\x86_64-pc-windows-m
+svc\\lib/{libstd-*,libpani
+c_unwind-*,libcfg_if-*,lib
+windows_targets-*,librustc
+_demangle-*,libstd_detect-
+*,libhashbrown-*,librustc_
+std_workspace_alloc-*,libu
+nwind-*,librustc_std_works
+pace_core-*,liballoc-*,lib
+core-*,libcompiler_builtin
+s-*}.rlib" "kernel32.lib" 
+"kernel32.lib" "kernel32.l
+ib" "ntdll.lib" "userenv.l
+ib" "ws2_32.lib" "dbghelp.
+lib" "/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:E:\\Clau
+deCode\\PROJECTS\\Antigrav
+ity_bot\\src-tauri\\target
+\\debug\\build\\parking_lo
+t_core-dd14c1e1ced32ba1\\b
+uild_script_build-dd14c1e1
+ced32ba1.exe" "/OPT:REF,NO
+ICF" "/DEBUG" "/PDBALTPATH
+:%_PDB%" "/NATVIS:<sysroot
+>\\lib\\rustlib\\etc\\intr
+insic.natvis" "/NATVIS:<sy
+sroot>\\lib\\rustlib\\etc\
+\liballoc.natvis" "/NATVIS
+:<sysroot>\\lib\\rustlib\\
+etc\\libcore.natvis" "/NAT
+VIS:<sysroot>\\lib\\rustli
+b\\etc\\libstd.natvis"
+  = note: some arguments a
+re omitted. use `--verbose
+` to show all linker argum
+ents
+  = note: rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'ntdll.lib
+': no such file or directo
+ry
+          rust-lld: error:
+ could not open 'userenv.l
+ib': no such file or direc
+tory
+          rust-lld: error:
+ could not open 'ws2_32.li
+b': no such file or direct
+ory
+          rust-lld: error:
+ could not open 'dbghelp.l
+ib': no such file or direc
+tory
+          
+
+error: could not compile `
+quote` (build script) due 
+to 1 previous error
+error: could not compile `
+parking_lot_core` (build s
+cript) due to 1 previous e
+rror
+error: linking with `rust-
+lld.exe` failed: exit code
+: 1
+  |
+  = note: "rust-lld.exe" "
+-flavor" "link" "/NOLOGO" 
+"E:\\ClaudeCode\\PROJECTS\
+\Antigravity_bot\\src-taur
+i\\target\\debug\\build\\z
+mij-d3af101a4a102fa4\\rust
+caAI80V\\symbols.o" "<2 ob
+ject files omitted>" "<sys
+root>\\lib\\rustlib\\x86_6
+4-pc-windows-msvc\\lib/{li
+bstd-*,libpanic_unwind-*,l
+ibcfg_if-*,libwindows_targ
+ets-*,librustc_demangle-*,
+libstd_detect-*,libhashbro
+wn-*,librustc_std_workspac
+e_alloc-*,libunwind-*,libr
+ustc_std_workspace_core-*,
+liballoc-*,libcore-*,libco
+mpiler_builtins-*}.rlib" "
+kernel32.lib" "kernel32.li
+b" "kernel32.lib" "ntdll.l
+ib" "userenv.lib" "ws2_32.
+lib" "dbghelp.lib" "/defau
+ltlib:msvcrt" "/NXCOMPAT" 
+"/OUT:E:\\ClaudeCode\\PROJ
+ECTS\\Antigravity_bot\\src
+-tauri\\target\\debug\\bui
+ld\\zmij-d3af101a4a102fa4\
+\build_script_build-d3af10
+1a4a102fa4.exe" "/OPT:REF,
+NOICF" "/DEBUG" "/PDBALTPA
+TH:%_PDB%" "/NATVIS:<sysro
+ot>\\lib\\rustlib\\etc\\in
+trinsic.natvis" "/NATVIS:<
+sysroot>\\lib\\rustlib\\et
+c\\liballoc.natvis" "/NATV
+IS:<sysroot>\\lib\\rustlib
+\\etc\\libcore.natvis" "/N
+ATVIS:<sysroot>\\lib\\rust
+lib\\etc\\libstd.natvis"
+  = note: some arguments a
+re omitted. use `--verbose
+` to show all linker argum
+ents
+  = note: rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'ntdll.lib
+': no such file or directo
+ry
+          rust-lld: error:
+ could not open 'userenv.l
+ib': no such file or direc
+tory
+          rust-lld: error:
+ could not open 'ws2_32.li
+b': no such file or direct
+ory
+          rust-lld: error:
+ could not open 'dbghelp.l
+ib': no such file or direc
+tory
+          
+
+error: linking with `rust-
+lld.exe` failed: exit code
+: 1
+  |
+  = note: "rust-lld.exe" "
+-flavor" "link" "/NOLOGO" 
+"E:\\ClaudeCode\\PROJECTS\
+\Antigravity_bot\\src-taur
+i\\target\\debug\\build\\g
+etrandom-9768303197773d60\
+\rustcOP4ssP\\symbols.o" "
+<2 object files omitted>" 
+"<sysroot>\\lib\\rustlib\\
+x86_64-pc-windows-msvc\\li
+b/{libstd-*,libpanic_unwin
+d-*,libcfg_if-*,libwindows
+_targets-*,librustc_demang
+le-*,libstd_detect-*,libha
+shbrown-*,librustc_std_wor
+kspace_alloc-*,libunwind-*
+,librustc_std_workspace_co
+re-*,liballoc-*,libcore-*,
+libcompiler_builtins-*}.rl
+ib" "kernel32.lib" "kernel
+32.lib" "kernel32.lib" "nt
+dll.lib" "userenv.lib" "ws
+2_32.lib" "dbghelp.lib" "/
+defaultlib:msvcrt" "/NXCOM
+PAT" "/OUT:E:\\ClaudeCode\
+\PROJECTS\\Antigravity_bot
+\\src-tauri\\target\\debug
+\\build\\getrandom-9768303
+197773d60\\build_script_bu
+ild-9768303197773d60.exe" 
+"/OPT:REF,NOICF" "/DEBUG" 
+"/PDBALTPATH:%_PDB%" "/NAT
+VIS:<sysroot>\\lib\\rustli
+b\\etc\\intrinsic.natvis" 
+"/NATVIS:<sysroot>\\lib\\r
+ustlib\\etc\\liballoc.natv
+is" "/NATVIS:<sysroot>\\li
+b\\rustlib\\etc\\libcore.n
+atvis" "/NATVIS:<sysroot>\
+\lib\\rustlib\\etc\\libstd
+.natvis"
+  = note: some arguments a
+re omitted. use `--verbose
+` to show all linker argum
+ents
+  = note: rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'ntdll.lib
+': no such file or directo
+ry
+          rust-lld: error:
+ could not open 'userenv.l
+ib': no such file or direc
+tory
+          rust-lld: error:
+ could not open 'ws2_32.li
+b': no such file or direct
+ory
+          rust-lld: error:
+ could not open 'dbghelp.l
+ib': no such file or direc
+tory
+          
+
+error: linking with `rust-
+lld.exe` failed: exit code
+: 1
+  |
+  = note: "rust-lld.exe" "
+-flavor" "link" "/NOLOGO" 
+"E:\\ClaudeCode\\PROJECTS\
+\Antigravity_bot\\src-taur
+i\\target\\debug\\build\\p
+roc-macro2-104b1de8b1d694c
+9\\rustc9SAIw3\\symbols.o"
+ "<3 object files omitted>
+" "<sysroot>\\lib\\rustlib
+\\x86_64-pc-windows-msvc\\
+lib/{libstd-*,libpanic_unw
+ind-*,libcfg_if-*,libwindo
+ws_targets-*,librustc_dema
+ngle-*,libstd_detect-*,lib
+hashbrown-*,librustc_std_w
+orkspace_alloc-*,libunwind
+-*,librustc_std_workspace_
+core-*,liballoc-*,libcore-
+*,libcompiler_builtins-*}.
+rlib" "kernel32.lib" "kern
+el32.lib" "kernel32.lib" "
+ntdll.lib" "userenv.lib" "
+ws2_32.lib" "dbghelp.lib" 
+"/defaultlib:msvcrt" "/NXC
+OMPAT" "/OUT:E:\\ClaudeCod
+e\\PROJECTS\\Antigravity_b
+ot\\src-tauri\\target\\deb
+ug\\build\\proc-macro2-104
+b1de8b1d694c9\\build_scrip
+t_build-104b1de8b1d694c9.e
+xe" "/OPT:REF,NOICF" "/DEB
+UG" "/PDBALTPATH:%_PDB%" "
+/NATVIS:<sysroot>\\lib\\ru
+stlib\\etc\\intrinsic.natv
+is" "/NATVIS:<sysroot>\\li
+b\\rustlib\\etc\\liballoc.
+natvis" "/NATVIS:<sysroot>
+\\lib\\rustlib\\etc\\libco
+re.natvis" "/NATVIS:<sysro
+ot>\\lib\\rustlib\\etc\\li
+bstd.natvis"
+  = note: some arguments a
+re omitted. use `--verbose
+` to show all linker argum
+ents
+  = note: rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'ntdll.lib
+': no such file or directo
+ry
+          rust-lld: error:
+ could not open 'userenv.l
+ib': no such file or direc
+tory
+          rust-lld: error:
+ could not open 'ws2_32.li
+b': no such file or direct
+ory
+          rust-lld: error:
+ could not open 'dbghelp.l
+ib': no such file or direc
+tory
+          
+
+error: linking with `rust-
+lld.exe` failed: exit code
+: 1
+  |
+  = note: "rust-lld.exe" "
+-flavor" "link" "/NOLOGO" 
+"E:\\ClaudeCode\\PROJECTS\
+\Antigravity_bot\\src-taur
+i\\target\\debug\\build\\s
+erde_core-89e74970a1c024b0
+\\rustcXWrHBu\\symbols.o" 
+"<3 object files omitted>"
+ "<sysroot>\\lib\\rustlib\
+\x86_64-pc-windows-msvc\\l
+ib/{libstd-*,libpanic_unwi
+nd-*,libcfg_if-*,libwindow
+s_targets-*,librustc_deman
+gle-*,libstd_detect-*,libh
+ashbrown-*,librustc_std_wo
+rkspace_alloc-*,libunwind-
+*,librustc_std_workspace_c
+ore-*,liballoc-*,libcore-*
+,libcompiler_builtins-*}.r
+lib" "kernel32.lib" "kerne
+l32.lib" "kernel32.lib" "n
+tdll.lib" "userenv.lib" "w
+s2_32.lib" "dbghelp.lib" "
+/defaultlib:msvcrt" "/NXCO
+MPAT" "/OUT:E:\\ClaudeCode
+\\PROJECTS\\Antigravity_bo
+t\\src-tauri\\target\\debu
+g\\build\\serde_core-89e74
+970a1c024b0\\build_script_
+build-89e74970a1c024b0.exe
+" "/OPT:REF,NOICF" "/DEBUG
+" "/PDBALTPATH:%_PDB%" "/N
+ATVIS:<sysroot>\\lib\\rust
+lib\\etc\\intrinsic.natvis
+" "/NATVIS:<sysroot>\\lib\
+\rustlib\\etc\\liballoc.na
+tvis" "/NATVIS:<sysroot>\\
+lib\\rustlib\\etc\\libcore
+.natvis" "/NATVIS:<sysroot
+>\\lib\\rustlib\\etc\\libs
+td.natvis"
+  = note: some arguments a
+re omitted. use `--verbose
+` to show all linker argum
+ents
+  = note: rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'ntdll.lib
+': no such file or directo
+ry
+          rust-lld: error:
+ could not open 'userenv.l
+ib': no such file or direc
+tory
+          rust-lld: error:
+ could not open 'ws2_32.li
+b': no such file or direct
+ory
+          rust-lld: error:
+ could not open 'dbghelp.l
+ib': no such file or direc
+tory
+          
+
+error: linking with `rust-
+lld.exe` failed: exit code
+: 1
+  |
+  = note: "rust-lld.exe" "
+-flavor" "link" "/NOLOGO" 
+"E:\\ClaudeCode\\PROJECTS\
+\Antigravity_bot\\src-taur
+i\\target\\debug\\build\\s
+erde-8e879bbf256b0bcb\\rus
+tcF9zAcZ\\symbols.o" "<3 o
+bject files omitted>" "<sy
+sroot>\\lib\\rustlib\\x86_
+64-pc-windows-msvc\\lib/{l
+ibstd-*,libpanic_unwind-*,
+libcfg_if-*,libwindows_tar
+gets-*,librustc_demangle-*
+,libstd_detect-*,libhashbr
+own-*,librustc_std_workspa
+ce_alloc-*,libunwind-*,lib
+rustc_std_workspace_core-*
+,liballoc-*,libcore-*,libc
+ompiler_builtins-*}.rlib" 
+"kernel32.lib" "kernel32.l
+ib" "kernel32.lib" "ntdll.
+lib" "userenv.lib" "ws2_32
+.lib" "dbghelp.lib" "/defa
+ultlib:msvcrt" "/NXCOMPAT"
+ "/OUT:E:\\ClaudeCode\\PRO
+JECTS\\Antigravity_bot\\sr
+c-tauri\\target\\debug\\bu
+ild\\serde-8e879bbf256b0bc
+b\\build_script_build-8e87
+9bbf256b0bcb.exe" "/OPT:RE
+F,NOICF" "/DEBUG" "/PDBALT
+PATH:%_PDB%" "/NATVIS:<sys
+root>\\lib\\rustlib\\etc\\
+intrinsic.natvis" "/NATVIS
+:<sysroot>\\lib\\rustlib\\
+etc\\liballoc.natvis" "/NA
+TVIS:<sysroot>\\lib\\rustl
+ib\\etc\\libcore.natvis" "
+/NATVIS:<sysroot>\\lib\\ru
+stlib\\etc\\libstd.natvis"
+  = note: some arguments a
+re omitted. use `--verbose
+` to show all linker argum
+ents
+  = note: rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'ntdll.lib
+': no such file or directo
+ry
+          rust-lld: error:
+ could not open 'userenv.l
+ib': no such file or direc
+tory
+          rust-lld: error:
+ could not open 'ws2_32.li
+b': no such file or direct
+ory
+          rust-lld: error:
+ could not open 'dbghelp.l
+ib': no such file or direc
+tory
+          
+
+error: could not compile `
+zmij` (build script) due t
+o 1 previous error
+error: could not compile `
+getrandom` (build script) 
+due to 1 previous error
+error: could not compile `
+proc-macro2` (build script
+) due to 1 previous error
+error: could not compile `
+serde_core` (build script)
+ due to 1 previous error
+error: could not compile `
+serde` (build script) due 
+to 1 previous error
+error: linking with `rust-
+lld.exe` failed: exit code
+: 1
+  |
+  = note: "rust-lld.exe" "
+-flavor" "link" "/NOLOGO" 
+"E:\\ClaudeCode\\PROJECTS\
+\Antigravity_bot\\src-taur
+i\\target\\debug\\build\\s
+erde_core-052e4700b62359e9
+\\rustcaOa0TH\\symbols.o" 
+"<3 object files omitted>"
+ "<sysroot>\\lib\\rustlib\
+\x86_64-pc-windows-msvc\\l
+ib/{libstd-*,libpanic_unwi
+nd-*,libcfg_if-*,libwindow
+s_targets-*,librustc_deman
+gle-*,libstd_detect-*,libh
+ashbrown-*,librustc_std_wo
+rkspace_alloc-*,libunwind-
+*,librustc_std_workspace_c
+ore-*,liballoc-*,libcore-*
+,libcompiler_builtins-*}.r
+lib" "kernel32.lib" "kerne
+l32.lib" "kernel32.lib" "n
+tdll.lib" "userenv.lib" "w
+s2_32.lib" "dbghelp.lib" "
+/defaultlib:msvcrt" "/NXCO
+MPAT" "/OUT:E:\\ClaudeCode
+\\PROJECTS\\Antigravity_bo
+t\\src-tauri\\target\\debu
+g\\build\\serde_core-052e4
+700b62359e9\\build_script_
+build-052e4700b62359e9.exe
+" "/OPT:REF,NOICF" "/DEBUG
+" "/PDBALTPATH:%_PDB%" "/N
+ATVIS:<sysroot>\\lib\\rust
+lib\\etc\\intrinsic.natvis
+" "/NATVIS:<sysroot>\\lib\
+\rustlib\\etc\\liballoc.na
+tvis" "/NATVIS:<sysroot>\\
+lib\\rustlib\\etc\\libcore
+.natvis" "/NATVIS:<sysroot
+>\\lib\\rustlib\\etc\\libs
+td.natvis"
+  = note: some arguments a
+re omitted. use `--verbose
+` to show all linker argum
+ents
+  = note: rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'ntdll.lib
+': no such file or directo
+ry
+          rust-lld: error:
+ could not open 'userenv.l
+ib': no such file or direc
+tory
+          rust-lld: error:
+ could not open 'ws2_32.li
+b': no such file or direct
+ory
+          rust-lld: error:
+ could not open 'dbghelp.l
+ib': no such file or direc
+tory
+          
+
+error: could not compile `
+serde_core` (build script)
+ due to 1 previous error
+error: linking with `rust-
+lld.exe` failed: exit code
+: 1
+  |
+  = note: "rust-lld.exe" "
+-flavor" "link" "/NOLOGO" 
+"E:\\ClaudeCode\\PROJECTS\
+\Antigravity_bot\\src-taur
+i\\target\\debug\\build\\z
+erocopy-fb6941bc13e40ff8\\
+rustc9NVCnM\\symbols.o" "<
+6 object files omitted>" "
+<sysroot>\\lib\\rustlib\\x
+86_64-pc-windows-msvc\\lib
+/{libstd-*,libpanic_unwind
+-*,libcfg_if-*,libwindows_
+targets-*,librustc_demangl
+e-*,libstd_detect-*,libhas
+hbrown-*,librustc_std_work
+space_alloc-*,libunwind-*,
+librustc_std_workspace_cor
+e-*,liballoc-*,libcore-*,l
+ibcompiler_builtins-*}.rli
+b" "kernel32.lib" "kernel3
+2.lib" "kernel32.lib" "ntd
+ll.lib" "userenv.lib" "ws2
+_32.lib" "dbghelp.lib" "/d
+efaultlib:msvcrt" "/NXCOMP
+AT" "/OUT:E:\\ClaudeCode\\
+PROJECTS\\Antigravity_bot\
+\src-tauri\\target\\debug\
+\build\\zerocopy-fb6941bc1
+3e40ff8\\build_script_buil
+d-fb6941bc13e40ff8.exe" "/
+OPT:REF,NOICF" "/DEBUG" "/
+PDBALTPATH:%_PDB%" "/NATVI
+S:<sysroot>\\lib\\rustlib\
+\etc\\intrinsic.natvis" "/
+NATVIS:<sysroot>\\lib\\rus
+tlib\\etc\\liballoc.natvis
+" "/NATVIS:<sysroot>\\lib\
+\rustlib\\etc\\libcore.nat
+vis" "/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\libstd.n
+atvis"
+  = note: some arguments a
+re omitted. use `--verbose
+` to show all linker argum
+ents
+  = note: rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'kernel32.
+lib': no such file or dire
+ctory
+          rust-lld: error:
+ could not open 'ntdll.lib
+': no such file or directo
+ry
+          rust-lld: error:
+ could not open 'userenv.l
+ib': no such file or direc
+tory
+          rust-lld: error:
+ could not open 'ws2_32.li
+b': no such file or direct
+ory
+          rust-lld: error:
+ could not open 'dbghelp.l
+ib': no such file or direc
+tory
+          
+
+error: could not compile `
+zerocopy` (build script) d
+ue to 1 previous error

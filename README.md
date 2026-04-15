@@ -1,3 +1,5 @@
+<img width="443" height="121" alt="image" src="https://github.com/user-attachments/assets/101d1ab8-d063-4a03-87d2-9f862d0a6933" />
+
 # Antigravity Buddy 🛸
 
 > A Dynamic Island-style desktop companion for AI Agent state visualization and workspace orchestration.

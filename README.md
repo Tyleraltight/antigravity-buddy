@@ -14,7 +14,7 @@ Inspired by [CodeIsland](https://github.com/wxtsky/CodeIsland), Antigravity Budd
 
 | Thinking | Coding | Success |
 | :---: | :---: | :---: |
-| <img src="src/assets/thinking.gif" width="200"> | <img src="src/assets/coding.gif" width="200"> | <img src="src/assets/success.gif" width="200"> |
+| <img src="src/assets/thinking.gif" width="100%"> | <img src="src/assets/coding.gif" width="100%"> | <img src="src/assets/success.gif" width="100%"> |
 | *Energy Pulse & "..." Bubble* | *Energy Pulse & "..." Bubble* | *Laugh Shake & "Hhhhhh" Bubble* |
 
 ### ✨ Key Features

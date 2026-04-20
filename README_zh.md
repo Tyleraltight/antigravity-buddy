@@ -12,7 +12,7 @@
 
 | 思考 (Thinking) | 编码 (Coding) | 完成 (Success) |
 | :---: | :---: | :---: |
-| <img src="src/assets/thinking.gif" width="200"> | <img src="src/assets/coding.gif" width="200"> | <img src="src/assets/success.gif" width="200"> |
+| <img src="src/assets/thinking.gif" width="100%"> | <img src="src/assets/coding.gif" width="100%"> | <img src="src/assets/success.gif" width="100%"> |
 | *能量闪烁 + 思考气泡* | *能量闪烁 + 打字气泡* | *开心震动 + Hhhhhh气泡* |
 
 ### ✨ 核心特性

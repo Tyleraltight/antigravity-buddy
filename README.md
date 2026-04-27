@@ -14,7 +14,7 @@ Inspired by [CodeIsland](https://github.com/wxtsky/CodeIsland), Antigravity Budd
 
 | Working | Success | Error |
 | :---: | :---: | :---: |
-| <img src="src/assets/thinking.gif" width="100%" alt="Working state animation"> | <img src="src/assets/success.gif" width="100%" alt="Success state animation"> | *(Animation coming soon)* |
+| <img src="src/assets/thinking.gif" width="100%" alt="Working state animation"> | <img src="src/assets/success.gif" width="100%" alt="Success state animation"> | <img src="src/assets/error.gif" width="100%" alt="Error state animation"> |
 | *Energy Pulse & "..." Bubble* | *Laugh Shake & "Hhhhhh" Bubble* | *Sad Droop & "T_T" Bubble* |
 
 ### ✨ Key Features

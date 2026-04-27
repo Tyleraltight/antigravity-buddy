@@ -12,7 +12,7 @@
 
 | 工作 (Working) | 完成 (Success) | 异常 (Error) |
 | :---: | :---: | :---: |
-| <img src="src/assets/thinking.gif" width="100%" alt="Working state animation"> | <img src="src/assets/success.gif" width="100%" alt="Success state animation"> | <img src="src/assets/error_final.gif" width="100%" alt="Error state animation"> |
+| <img src="src/assets/thinking.gif" width="100%" alt="Working state animation"> | <img src="src/assets/success.gif" width="100%" alt="Success state animation"> | <img src="src/assets/error_v4.gif" width="100%" alt="Error state animation"> |
 | *能量闪烁 + "..."气泡* | *开心震动 + Hhhhhh气泡* | *委屈下垂 + T_T气泡* |
 
 ### ✨ 核心特性

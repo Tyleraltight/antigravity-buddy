@@ -13,23 +13,29 @@ const fs = require('fs');
   console.log('Navigating to local dev server...');
   await page.goto('http://localhost:1420', { waitUntil: 'networkidle0' });
 
-  // Ensure backgrounds are transparent and center the capsule vertically for 104px height
+  // IMPORTANT: Match the background and style of the originals
+  // We'll use a dark background instead of transparency to ensure it fills the README table cell
   await page.evaluate(() => {
-    document.body.style.background = 'transparent';
-    document.documentElement.style.background = 'transparent';
+    document.body.style.background = '#0d1117'; // GitHub dark mode background or just solid black
+    document.documentElement.style.background = '#0d1117';
+    
     const container = document.getElementById('island-container');
+    const capsule = document.getElementById('island-capsule');
+    const textSpan = document.getElementById('state-text');
+    
     if (container) {
-      container.style.paddingTop = '24px'; // Adjusted to center a 50px capsule in 104px height (roughly)
+      container.style.paddingTop = '24px'; 
     }
-  });
-
-  // Trigger error state manually
-  await page.evaluate(() => {
-    const capsule = document.getElementById("island-capsule");
-    const textSpan = document.getElementById("state-text");
-    if (capsule && textSpan) {
+    
+    if (capsule) {
+      // Make it slightly wider to match the "feel" of the others if they look wider
+      capsule.style.width = '600px'; 
       capsule.className = "error expanded";
-      textSpan.textContent = "T_T";
+    }
+    
+    if (textSpan) {
+      textSpan.textContent = "T_T Critical Error";
+      textSpan.style.fontSize = "16px";
     }
   });
   
@@ -38,12 +44,13 @@ const fs = require('fs');
 
   console.log('Capturing frames...');
   const frames = [];
-  const totalFrames = 40; 
-  const frameDelay = 50; 
+  const totalFrames = 30; 
+  const frameDelay = 60; 
 
   for (let i = 0; i < totalFrames; i++) {
     // Take full viewport screenshot (1000x104)
-    const buffer = await page.screenshot({ type: 'png', omitBackground: true });
+    // omitBackground: false to keep the solid background
+    const buffer = await page.screenshot({ type: 'png', omitBackground: false });
     
     const png = PNG.sync.read(buffer);
     const bitmap = new BitmapImage(png.width, png.height, png.data);
@@ -56,7 +63,7 @@ const fs = require('fs');
   console.log('Encoding GIF...');
   GifUtil.quantizeDekker(frames, 256);
   
-  const outputPath = '../src/assets/error.gif';
+  const outputPath = '../src/assets/error_v4.gif';
   await GifUtil.write(outputPath, frames, { loops: 0 });
   console.log('GIF saved to', outputPath);
 

@@ -12,14 +12,14 @@ Inspired by [CodeIsland](https://github.com/wxtsky/CodeIsland), Antigravity Budd
 
 ### 🎭 Bot States
 
-| Thinking | Coding | Success |
+| Working | Success | Error |
 | :---: | :---: | :---: |
-| <img src="src/assets/thinking.gif" width="100%"> | <img src="src/assets/coding.gif" width="100%"> | <img src="src/assets/success.gif" width="100%"> |
-| *Energy Pulse & "..." Bubble* | *Energy Pulse & "..." Bubble* | *Laugh Shake & "Hhhhhh" Bubble* |
+| <img src="src/assets/working.gif" width="100%" alt="Working state animation"> | <img src="src/assets/success.gif" width="100%" alt="Success state animation"> | <img src="src/assets/error.gif" width="100%" alt="Error state animation"> |
+| *Energy Pulse & "..." Bubble* | *Laugh Shake & "Hhhhhh" Bubble* | *Sad Droop & "T_T" Bubble* |
 
 ### ✨ Key Features
 - **Modern UI**: Apple-style transparent capsule with fluid animations and micro-interactions.
-- **Agent Awareness**: Real-time status feedback for `Thinking`, `Coding`, and `Success` states.
+- **Agent Awareness**: Real-time status feedback for `Working`, `Success`, and `Error` states.
 - **Smart Click-to-Focus**: Click the capsule to instantly restore, center, and focus the project IDE window.
 - **Lightweight & Fast**: Built with Rust (Tauri) for minimal resource footprint.
 
@@ -60,9 +60,9 @@ Simply run the compiled `tauri-app.exe`. By default, it stays hidden and only ap
 #### 2. Control via API
 Antigravity Buddy hosts a local HTTP server on port `3003`. You can integrate it with any script or CLI tool:
 
-- **Thinking State**: `GET http://localhost:3003/state/thinking`
-- **Coding State**: `GET http://localhost:3003/state/coding`
+- **Working State**: `GET http://localhost:3003/state/thinking` or `coding`
 - **Success Notification**: `GET http://localhost:3003/state/success`
+- **Error Notification**: `GET http://localhost:3003/state/error`
 
 #### 3. Focus Feature
 When a notification is visible, **clicking the capsule** will trigger the `bring_to_front` command, which automatically locates the `Antigravity.exe` process, centers it on your screen, and brings it to the foreground.

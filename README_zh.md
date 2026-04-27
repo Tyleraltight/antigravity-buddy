@@ -10,14 +10,14 @@
 
 ### 🎭 状态展示
 
-| 思考 (Thinking) | 编码 (Coding) | 完成 (Success) |
+| 工作 (Working) | 完成 (Success) | 异常 (Error) |
 | :---: | :---: | :---: |
-| <img src="src/assets/thinking.gif" width="100%"> | <img src="src/assets/coding.gif" width="100%"> | <img src="src/assets/success.gif" width="100%"> |
-| *能量闪烁 + 思考气泡* | *能量闪烁 + 打字气泡* | *开心震动 + Hhhhhh气泡* |
+| <img src="src/assets/working.gif" width="100%" alt="Working state animation"> | <img src="src/assets/success.gif" width="100%" alt="Success state animation"> | <img src="src/assets/error.gif" width="100%" alt="Error state animation"> |
+| *能量闪烁 + "..."气泡* | *开心震动 + Hhhhhh气泡* | *委屈下垂 + T_T气泡* |
 
 ### ✨ 核心特性
 - **现代美学**：受 macOS 启发的透明胶囊外观，包含平滑的微交互动画。
-- **状态感知**：实时同步并显示 `Thinking` (思考中), `Coding` (编码中) 和 `Success` (任务完成) 状态。
+- **状态感知**：实时同步并显示 `Working` (工作当中), `Success` (任务完成) 和 `Error` (遇到异常) 状态。
 - **智能唤起**：点击状态胶囊，即可瞬间恢复、居中并激活关联的项目 IDE 窗口。
 - **极致轻量**：基于 Rust & Tauri 开发，资源占用极低。
 
@@ -58,9 +58,9 @@ npm run tauri build
 #### 2. API 集成
 程序会在本地 `3003` 端口运行 HTTP 服务。你可以通过简单的 API 调用来控制小人的状态：
 
-- **切换至思考状态**: `GET http://localhost:3003/state/thinking`
-- **切换至编码状态**: `GET http://localhost:3003/state/coding`
+- **切换至工作状态**: `GET http://localhost:3003/state/thinking` 或 `coding`
 - **显示任务完成**: `GET http://localhost:3003/state/success`
+- **显示异常报错**: `GET http://localhost:3003/state/error`
 
 #### 3. 唤起功能
 当通知显示时，**点击胶囊**将触发内置指令：寻找 `Antigravity.exe` 进程，将其窗口移至屏幕正中心并激活到前台，显著提升 Agent 协作时的操作效率。

@@ -186,8 +186,8 @@ pub fn run() {
                     .route("/event", post(event_handler))
                     .with_state(state);
                 
-                let listener = TcpListener::bind("127.0.0.1:3003").await.unwrap();
-                println!("Listening on 3003");
+                let listener = TcpListener::bind("127.0.0.1:3333").await.unwrap();
+                println!("Listening on 3333");
                 let _ = axum::serve(listener, router).await;
             });
             

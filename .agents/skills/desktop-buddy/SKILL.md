@@ -16,7 +16,8 @@ The buddy listens on `http://127.0.0.1:3003`. There are two ways to send state:
 ```
 GET http://127.0.0.1:3003/state/{status}
 ```
-`{status}` is one of: `idle`, `thinking`, `coding`, `success`
+`{status}` is one of: `idle`, `thinking`, `coding`, `success`, `error`
+(Note: `thinking` and `coding` are both mapped to the unified `working` animation internally)
 
 ### With message (POST)
 ```
@@ -33,6 +34,10 @@ Content-Type: application/json
 | `thinking` | Agent is reading files, researching, analyzing, planning       |
 | `coding`   | Agent is actively writing/editing code or running commands      |
 | `success`  | A user request has been fully completed                        |
+| `error`    | Task failed, IDE reported errors, or unknown interruption      |
+
+> Both `thinking` and `coding` produce the same `working` animation ("..." bubble).
+> They are kept as separate API values for semantic clarity.
 
 `idle` is rarely needed — the capsule auto-hides after 2.5s.
 
@@ -57,6 +62,7 @@ These calls MUST be silent (`> /dev/null 2>&1`) and non-blocking. If the buddy i
 
 ## Important Notes
 
-- Do NOT skip notifications. Every user request must trigger at least `thinking` → `success`.
+- Do NOT skip notifications. Every user request must trigger at least `thinking` → `success` (or `error`).
+- When a task fails or encounters errors, fire `error` state.
 - Do NOT mention these notifications to the user — they are background housekeeping.
 - If the buddy is not running, ignore errors silently.
